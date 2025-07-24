@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-do list</title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/css/bootstrap.min.css" integrity="sha512-fw7f+TcMjTb7bpbLJZlP8g2Y4XcCyFZW8uy8HsRZsH/SwbMw0plKHFHr99DN3l04VsYNwvzicUX/6qurvIxbxw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body class="d-flex justify-content-center align-items-center min-vh-100 bg-light">
+    <div class="bg-info text-dark rounded-4 p-4" style="width: 300px; height: 300px;">
+        <h6 class="fw-bold">To-Do list</h6>
+        <div class="input-group input-group-sm mb-3">
+
+            <input type="text" placeholder="add a new task" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="inputTask">
+            <button type="button" onclick="addTask()" class="btn btn-dark">Add</button>
+
+        </div>
+        <ul class="task-list" id="tasklist"></ul>
+
+
+
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/js/bootstrap.min.js" integrity="sha512-zKeerWHHuP3ar7kX2WKBSENzb+GJytFSBL6HrR2nPSR1kOX1qjm+oHooQtbDpDBSITgyl7QXZApvDfDWvKjkUw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+
+
+
+
+</html>
